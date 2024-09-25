@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>렛츠플레이트</title>
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- <div class="swiper-slide">
+    <a href="https://letsplate.cafe24.com/skin-skin2/product/list.html?cate_no=23">
+        <span><img src="//ecimg.cafe24img.com/pg352b70148629044/letsplate/web/awesome_img/letsplate01_rollbanner.jpg"/></span>
+        <div class="txt_box">
+            <div class="inner">
+                <p class="sub_tit"># Panini Ciabatta</p>
+                <p class="tit">자연산 치즈와 풍부한 재료가 가득한 <strong>치아바타/파니니 샌드위치</strong></p>
+                <p class="more_btn">SHOW NOW<i class="xi-long-arrow-right"></i></p>
+            </div>
+        </div>
+    </a>
+</div> -->
+
+
+</head>
+
+<body> 
+  <header>
+    <div id="logo"><img src="img/l_logo.png"></div>
+    
+    <nav>
+      <ul>        
+        <!-- <li class="total_list"><a href="sub.html" target="_self"><img src="img/list.png" alt="nav_list"> Menu</a> -->
+          <ul class="sub_nav">
+          </ul>
+        </li>
+      </ul>
+      
+      <ul>
+        <li><a href="#">렛츠플레이트</a></li>
+        <li><a href="#">제품 소개</a></li>
+        <li><a href="#">주문</a></li>
+        <li><a href="#">커뮤니티</a></li>
+        <li><a href="#">문의</a></li>
+      </ul>
+    </nav>
+
+    <div class="search_input">
+      <input id="keyword" name="keyword" placeholder="search..." type="text" />
+      <img src="img/search.png" alt="돋보기">
+    </div>
+
+    <ul id="login">
+      <li><a href="#">로그인</a></li>
+      <li><a href="#">회원가입</a></li>
+      <li><a href="#">고객센터</a></li>
+    </ul>
+
+  </header>
+
+  <div id="slider">
+    <!-- <div id="slider-image-wrap">
+            <img src="img/logo9.jpg" alt="slider" class="image">
+            <img src="img/logo8.jpg" alt="slider" class="image">
+            <img src="img/qosj.jpg" alt="slider" class="image">
+        </div> -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/logo9.jpg" alt="slider" class="image">
+
+          <div class="txt_box">
+            <div class="inner">
+                <p class="sub_tit"># Panini Ciabatta</p>
+                <p class="tit">자연산 치즈와 풍부한 재료가 가득한 <strong>치아바타/파니니 샌드위치</strong></p>
+                <p class="more_btn">SHOW NOW<i class="xi-long-arrow-right"></i></p>
+            </div>
+          </div>
+
+          
+        </div>
+        <div class="carousel-item">
+          <img src="img/qosj.jpg" alt="slider" class="image">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  
+  <section id="best">
+    <h1>WEEKLY BEST ITEM</h1>
+    <h6>금주에 가장 주목받은 메뉴를 소개합니다.</h6>
+    <img src="img/0101.jpg"></a>
+    
+   
+  </section>      
+
+
+  <section id="menu">
+
+    <article>
+      <a href="#">
+        <img src="img/0101.jpg">
+        <h4>
+          <button id="newbutton">new</button>
+          <!-- <button id="bestbutton">best</button> -->
+          에그 베이컨 치아바타
+        </h4>
+        
+      </a>
+    </article>
+
+    <article>
+
+      <a href="#"><img src="img/0202.jpg"></a>
+      <h4>치킨 브레스트 치아바타</h4>
+    </article>
+
+    <article>
+
+      <a href="#"><img src="img/0303.jpg"></a>
+      <h4>
+        <button id="bestbutton">best</button>
+        더블치즈 햄 치아바타
+      </h4>
+      
+    </article>
+
+    <article>
+
+      <a href="#"><img src="img/0404.jpg"></a>
+      <h4>치킨 비프 랩샌드위치</h4>
+    </article>
+
+    <article>
+
+      <a href="#"><img src="img/0505.jpg"></a>
+      <h4>트러플 치킨 랩샌드위치</h4>
+    </article>
+
+    <article>
+
+      <a href="#"><img src="img/0606.jpg"></a>
+      <h4><button id="hitbutton">hit</button>그릴드 머쉬룸 랩샌드위치</h4>
+      <!-- <button id="newbutton">new</button>  -->
+      
+    </article>
+
+
+  </section>
+
+  <footer>
+
+    <img src="img/l_logo.png">
+    <p>서울시 서초구 강남대로535 프린프빌딩 15층 ┃ 대표: 정인서 ┃ 전화: 02-123-4567 ┃ 사업자등록번호: 101-84-04143<br><br>
+      LET'S PLATE is a Registered Trademark of Subway IP LCC. 2024 Subway IP LLC. All Rights Reserved.
+    </p>
+  </footer>
+
+
+</body>
+
+</html>
